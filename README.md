@@ -27,7 +27,8 @@ Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](https://github.com/AngomRanjan/vet-clinic/issues).
 
 ## Show your support
-https://github.com/AngomRanjan/vet-clinic/stargazers) if you like this project!
+
+Give a [⭐️](https://github.com/AngomRanjan/vet-clinic/stargazers) if you like this project!
 
 ## :footprints: Track Me
 
