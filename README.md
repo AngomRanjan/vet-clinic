@@ -24,11 +24,10 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AngomRanjan/fb-clone/issues).
+Feel free to check the [issues page](https://github.com/AngomRanjan/vet-clinic/issues).
 
 ## Show your support
-
-Give a [⭐️](https://github.com/AngomRanjan/fb-clone/stargazers) if you like this project!
+https://github.com/AngomRanjan/vet-clinic/stargazers) if you like this project!
 
 ## :footprints: Track Me
 
