@@ -1,7 +1,7 @@
 /* Database schema to keep the structure of entire database. */
 
 CREATE TABLE animals (
-    id INT,
+    id INT NOT NULL,
     name VARCHAR(100),
     date_of_birth DATE,
     escape_attempts INT,
@@ -10,3 +10,6 @@ CREATE TABLE animals (
     PRIMARY KEY(id)
 );
 
+/* Add species column to animal table */
+ALTER TABLE animals
+ADD COLUMN species VARCHAR(100);
