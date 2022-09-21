@@ -72,10 +72,6 @@ SELECT owners.full_name, COUNT(animals.name) FROM animals
 JOIN owners ON animals.owners_id = owners.id
 GROUP BY owners.full_name ORDER BY count DESC LIMIT 1;
 
-/* owns the most animals */
-SELECT owners.full_name, COUNT(animals.name) FROM animals JOIN owners ON animals.owners_id = owners.id
-GROUP BY owners.full_name ORDER BY count DESC LIMIT 1;
-
 /* Join table  vets*/
 /* last animal seen by William Tatcher */
 
