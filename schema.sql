@@ -45,6 +45,7 @@ CREATE TABLE vets (
 
 /* Create join/bridge table specializations */
 CREATE TABLE specializations (
+    id SERIAL PRIMARY KEY,
     vets_id INT NOT NULL,
     species_id INT NOT NULL,
     FOREIGN KEY (vets_id) REFERENCES vets (id) ON DELETE RESTRICT ON UPDATE CASCADE,
@@ -53,6 +54,7 @@ CREATE TABLE specializations (
 
 /* Create join/bridge table visits */
 CREATE TABLE visits (
+    id SERIAL PRIMARY KEY,
     vets_id INT NOT NULL,
     animals_id INT NOT NULL,
     date_of_visit DATE,
@@ -60,4 +62,6 @@ CREATE TABLE visits (
     FOREIGN KEY (animals_id) REFERENCES animals (id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
+/* Add an email column to your owners table */
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 

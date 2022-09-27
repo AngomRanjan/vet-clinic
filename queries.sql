@@ -106,13 +106,25 @@ SELECT animals.*, vets.*, visits.date_of_visit FROM animals JOIN visits on anima
 JOIN vets ON vets_id = visits.vets_id ORDER BY visits.date_of_visit DESC LIMIT 1;
 
 /* How many visits were with a vet that did not specialize in that animal's species? */
+
 SELECT name, COUNT(*) as "No. Of Visits" FROM vets JOIN visits ON vets.id = visits.vets_id
-WHERE vets.id NOT IN (
-  SELECT vets_id from specializations
-) GROUP BY name;
+LEFT JOIN specializations ON vets.id=specializations.vets_id
+WHERE species_id is null GROUP BY name;
 
 /* What specialty should Maisy Smith consider getting? Look for the species she gets the most. */
 SELECT species.name, COUNT(visits.animals_id) FROM visits JOIN vets ON vets.id = visits.vets_id
 JOIN animals ON visits.animals_id = animals.id 
 JOIN species ON species.id = animals.species_id
 WHERE vets.name = 'Maisy Smith' GROUP BY species.name ORDER BY count DESC LIMIT 1;
+
+/* check queries */
+SELECT COUNT(*) FROM visits where animals_id = 4;
+SELECT * FROM visits where vets_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+/* audit */
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animals_id = 4;
+EXPLAIN ANALYZE  SELECT * FROM visits where vets_id = 2;   
+EXPLAIN ANALYZE  SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
