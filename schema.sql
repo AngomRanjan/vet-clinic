@@ -62,14 +62,14 @@ CREATE TABLE visits (
     FOREIGN KEY (animals_id) REFERENCES animals (id) ON DELETE RESTRICT ON UPDATE CASCADE
 );
 
-/* Add an email column to your owners table */
+/* Add an email column to owners table */
 ALTER TABLE owners ADD COLUMN email VARCHAR(120);
 
-/* Create non clustered index on visits */
+/* Create NON clustered index on visits */
 CREATE INDEX animals_id_asc ON visits(animals_id ASC);
 
-/* Create non clustered index on visits */
+/* Create NON clustered index on visits */
 CREATE INDEX vets_id_asc ON visits(vets_id ASC);
 
-/* Create non clustered index on owners */
+/* Create NON clustered index on owners */
 CREATE INDEX email_asc ON owners(email ASC);
