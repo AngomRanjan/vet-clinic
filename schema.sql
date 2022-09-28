@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 /* Database schema to keep the structure of entire database. */
 
 CREATE TABLE animals (
@@ -75,4 +73,3 @@ CREATE INDEX vets_id_asc ON visits(vets_id ASC);
 
 /* Create NON clustered index on owners */
 CREATE INDEX email_asc ON owners(email ASC);
->>>>>>> performance-audit
