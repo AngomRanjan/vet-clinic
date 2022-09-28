@@ -20,6 +20,12 @@ This repository includes files with plain SQL that can be used to recreate a dat
 - Twitter: [@RanjanAngom](https://twitter.com/RanjanAngom)
 - LinkedIn: [angom-chittaranjan](https://linkedin.com/in/angom-chittaranjan)
 
+👤 **Nizamuddin Ahmadzai**
+
+- GitHub: [@Nizamudin4493](https://github.com/Nizamuddin4493)
+- Twitter: [@Nizamudin4493](https://twitter.com/Nizamuddin4493)
+- LinkedIn: [nizamuddin4493](https://linkedin.com/in/nzm4493)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
