@@ -4,6 +4,9 @@
 
 > My first PostgreSQL Database
 
+## Entitiy Relationship Diagram of Vet-Clinic-Database
+![Vet Clinic ER Diagram](./diagrams/vet_clinic_ER.png)
+
 ## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
@@ -47,8 +50,8 @@ Give a [⭐️](https://github.com/AngomRanjan/vet-clinic/stargazers) if you lik
 </a>
 
 ## Acknowledgments
-- Microverse Team
-- My Family
+- Microverse Team.
+- My Family.
 - All my fellow micronauts.
 
 ## 📝 License
