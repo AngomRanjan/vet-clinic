@@ -50,8 +50,8 @@ Give a [⭐️](https://github.com/AngomRanjan/vet-clinic/stargazers) if you lik
 </a>
 
 ## Acknowledgments
-- Microverse Team
-- My Family
+- Microverse Team.
+- My Family.
 - All my fellow micronauts.
 
 ## 📝 License
